@@ -81,12 +81,14 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'space-between',
   },
-  NewLogo:{
+  // NewLogo:{
    
-    mr: [null, null, null, null, 6, 12],
-    ml: '-25px',
+  //   mr: [null, null, null, null, 6, 12],
+    
+  //   ml: '20px',
+    
 
-  },
+  // },
   logo: {
     mr: [null, null, null, null, 6, 12],
     ml: '-25px',
