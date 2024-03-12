@@ -20,6 +20,7 @@ const styles = {
     textAlign: 'center',
     maxWidth: 660,
     margin: ['0 auto 60px'],
+    pt:[8],
   },
   title: {
     fontFamily: 'heading',

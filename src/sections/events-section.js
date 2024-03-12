@@ -5,7 +5,6 @@ import ButtonGroup from 'components/button-group';
 import Carousel from 'react-multi-carousel';
 import PostThumb1 from 'assets/images/blog/dalle2.png';
 import PostThumb2 from 'assets/images/blog/bun.png';
-import PostThumb3 from 'assets/images/blog/introS.png';
 import PostThumb4 from 'assets/images/blog/IoTws.png';
 import PostThumb5 from 'assets/images/blog/maamfarewell.png';
 import PostThumb6 from 'assets/images/blog/WlcmSess.png';
@@ -22,7 +21,7 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: PostThumb3,
+    imgSrc:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/introS.png?alt=media&token=b1149210-746a-4439-b57d-37e586d63e72',
     altText: 'NFT Day Celebration',
     // postLink: 'https://gdsc.community.dev/e/m8h9zy/',
     title: 'NFT Day Celebration',

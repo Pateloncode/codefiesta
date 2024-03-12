@@ -1,8 +1,5 @@
 import React from 'react';
 import { Box, Container, Flex, Text, Heading, Image } from 'theme-ui';
-import { Link } from 'components/link';
-
-import callImage from 'assets/images/call-image.png';
 
 
 
@@ -49,7 +46,7 @@ const CallToAction = () => {
            
           </Box>
           <Box sx={styles.images}>
-            <Image src={callImage} alt="call image" />
+            <Image src={'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/call-image.png?alt=media&token=dd5f5dbc-1d64-4fe7-96a9-c609a025f7f9'} alt="call image" />
           </Box>
         </Flex>
       </Container>
