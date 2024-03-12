@@ -2,42 +2,39 @@
 /** @jsx jsx */
 import { useRef, useState, useEffect } from 'react';
 import { jsx, Box, Container, Image } from 'theme-ui';
-import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper'; // Import Autoplay module
+import SwiperCore, { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SectionHeading from 'components/section-heading';
 import TeamMember from 'components/cards/team-member';
 
-import avatar1 from 'assets/images/team/member1.png'; //priyanka
-import avatar2 from 'assets/images/team/member2.png'; //chirag
-import avatar3 from 'assets/images/team/member3.png'; //akshat
-import avatar4 from 'assets/images/team/member4.png'; //giri
-import avatar5 from 'assets/images/team/member5.png'; //vansh
-import avatar6 from 'assets/images/team/member6.png'; //manan
-import avatar7 from 'assets/images/team/member7.png'; //neha
-import avatar8 from 'assets/images/team/member8.png'; //vinit
-import avatar9 from 'assets/images/team/member9.png'; //hardik
-import avatar10 from 'assets/images/team/member10.png'; //chirg somehitng
+
+
 
 import arrowRight from 'assets/images/icons/arrow-right.png';
 
-SwiperCore.use([Navigation, Pagination, Autoplay]); // Add Autoplay to SwiperCore
+
+
+
+SwiperCore.use([Navigation, Pagination]);
 
 const data = [
-  {
+  
+  { 
     id: 1,
-    avatar: avatar1,
-    name: 'Ms. Priyanka Sharma',
+    avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member1.png?alt=media&token=069e4072-5170-4f51-a123-2795f88b7d14',
+    name:'Ms. Priyanka Sharma',
     designation: 'Faculty Advisor',
     socialLinks: [
       {
         name: 'linkedin',
         link: 'https://www.linkedin.com/in/priyanka-sharma-068a5946/',
       },
-    ],
+    
+     ],
   },
   {
     id: 2,
-    avatar: avatar2,
+    avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member2.png?alt=media&token=753e101a-7362-42d1-8cbb-25d4d15ff4de',
     name: 'Chirag Gurnani',
     designation: 'CodeFiesta Lead', 
     socialLinks: [
@@ -54,7 +51,7 @@ const data = [
   },
   {
     id: 3,
-    avatar: avatar3,
+    avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member3.png?alt=media&token=cf91825e-0ac1-471e-b559-71d3cf7bdb73',
     name: 'Akshat Surana',
     designation: 'Mentor', 
     socialLinks: [
@@ -75,7 +72,7 @@ const data = [
   },
   {
     id: 4,
-    avatar: avatar4,
+    avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member4.png?alt=media&token=0d11f3cc-9adf-4605-a6c7-3aebb298c919',
     name: 'Abhijeet Giri',
     designation: 'Core Team',
     socialLinks: [
@@ -88,18 +85,14 @@ const data = [
         link: 'https://www.instagram.com/abhijeet.giri1614',
       },
 
-
-
-
-
     
     ],
   },
   {
     id: 5,
-    avatar: avatar5,
+    avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member5.png?alt=media&token=751b7381-4dec-4a34-9a01-78573b8661ae',
     name: 'Vansh Rastogi',
-    designation: 'Core Team',
+    designation: 'Faculty Advisor',
     socialLinks: [
       {
         name: 'linkedin',
@@ -117,9 +110,9 @@ const data = [
   },
   {
     id: 6,
-    avatar: avatar6,
+    avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member6.png?alt=media&token=ffde0eea-c132-46c0-9855-c69b81944293',
     name: 'Manan Patel',
-    designation: 'Devlopment Team',
+    designation: 'Development Team',
     socialLinks: [
       {
         name: 'linkedin',
@@ -129,7 +122,7 @@ const data = [
   },
   {
     id: 7,
-    avatar: avatar7,
+    avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member7.png?alt=media&token=d40846e2-c707-4872-90be-c6f5fa7e6fa0',
     name: 'Dr. Neha Janu',
     designation: 'Ex-Faculty Advisor',
     socialLinks: [
@@ -141,7 +134,7 @@ const data = [
   },
   {
     id: 8,
-    avatar: avatar8,
+    avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member8.png?alt=media&token=93457a2b-d853-484b-9de4-087d57721c84',
        name: 'Vinit Kumar Shah',
     designation: 'Ex-Core Team',
     socialLinks: [
@@ -161,7 +154,7 @@ const data = [
   },
   {
     id: 9,
-    avatar: avatar9,
+    avatar: 'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member9.png?alt=media&token=4522670b-d584-4b6c-8826-c2eca7d99423',
     
     name: 'Hardik Sharma',
     designation: 'Ex-Core Team',
@@ -182,7 +175,7 @@ const data = [
   },
   {
     id: 10,
-    avatar: avatar10,
+    avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member10.png?alt=media&token=95d04405-90ff-4a20-b1fa-e372f376b248',
     
     name: 'Chirag Kumar Sharma',
     designation: 'Ex-Core Team',
@@ -203,7 +196,6 @@ const data = [
   },
   
 ];
-  
 
 const OurTeam = () => {
   const swiperRef1 = useRef(null);
@@ -226,22 +218,36 @@ const OurTeam = () => {
 
   const handlePrev1 = () => {
     swiperRef1?.current?.swiper?.slidePrev();
-    setCurrentIndex1(swiperRef1?.current?.swiper?.activeIndex);
-  };
+    setInterval(() => {
+      setCurrentIndex1(swiperRef1?.current?.swiper?.activeIndex);
+    }, 100);
 
+    clearInterval();
+  };
   const handleNext1 = () => {
     swiperRef1?.current?.swiper?.slideNext();
-    setCurrentIndex1(swiperRef1?.current?.swiper?.activeIndex);
+    setInterval(() => {
+      setCurrentIndex1(swiperRef1?.current?.swiper?.activeIndex);
+    }, 100);
+
+    clearInterval();
   };
 
   const handlePrev2 = () => {
     swiperRef2?.current?.swiper?.slidePrev();
-    setCurrentIndex2(swiperRef2?.current?.swiper?.activeIndex);
-  };
+    setInterval(() => {
+      setCurrentIndex2(swiperRef2?.current?.swiper?.activeIndex);
+    }, 100);
 
+    clearInterval();
+  };
   const handleNext2 = () => {
     swiperRef2?.current?.swiper?.slideNext();
-    setCurrentIndex2(swiperRef2?.current?.swiper?.activeIndex);
+    setInterval(() => {
+      setCurrentIndex2(swiperRef2?.current?.swiper?.activeIndex);
+    }, 100);
+
+    clearInterval();
   };
 
   useEffect(() => {
@@ -274,12 +280,9 @@ const OurTeam = () => {
     },
   };
 
-  const autoplaySettings = {
-    delay: 6000, // Delay between slides in milliseconds
-    disableOnInteraction: false, // Allows user interaction to interrupt autoplay
-  };
+  
+ return(
 
-  return (
     <Box as="section" id="team" sx={styles.section}>
       <Container ref={containerRef1}>
         <SectionHeading
@@ -318,10 +321,8 @@ const OurTeam = () => {
           watchSlidesVisibility={true}
           slidesPerView={5}
           breakpoints={breakpoints}
-          autoplay={{ ...autoplaySettings, loop: true }} // Set loop to true
         >
-          {/* Map over data and create SwiperSlide for each member */}
-          {data.map((item) => (
+          {data.slice(0, 6).map((item) => (
             <SwiperSlide key={item.id}>
               <TeamMember member={item} />
             </SwiperSlide>
@@ -332,8 +333,8 @@ const OurTeam = () => {
       <Container ref={containerRef2}>
         <SectionHeading
           sx={styles.heading}
-          title="Additional Team Members"
-          description="More members who contribute to our community."
+           title="Former Associates"
+          // description="More members who contribute to our community."
         />
       </Container>
       <Box
@@ -365,10 +366,8 @@ const OurTeam = () => {
           watchSlidesVisibility={true}
           slidesPerView={5}
           breakpoints={breakpoints}
-          autoplay={{ ...autoplaySettings, loop: true }} // Set loop to true
         >
-          {/* Map over data and create SwiperSlide for each member */}
-          {data.map((item) => (
+          {data.slice(6, 12).map((item) => (
             <SwiperSlide key={item.id}>
               <TeamMember member={item} />
             </SwiperSlide>
@@ -389,7 +388,7 @@ const styles = {
   heading: {
     p: {
       maxWidth: 500,
-      m: '10px auto 0',
+      m: '10px auto 20px',
     },
   },
   teamWrapper: {
