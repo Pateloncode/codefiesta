@@ -120,18 +120,18 @@ const data = [
       },
     ],
   },
-  {
-    id: 7,
-    avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member7.png?alt=media&token=d40846e2-c707-4872-90be-c6f5fa7e6fa0',
-    name: 'Dr. Neha Janu',
-    designation: 'Ex-Faculty Advisor',
-    socialLinks: [
-      {
-        name: 'linkedin',
-        link: 'https://www.linkedin.com/in/dr-neha-janu-99341323/',
-      },
-    ],
-  },
+  // {
+  //   id: 7,
+  //   avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member7.png?alt=media&token=d40846e2-c707-4872-90be-c6f5fa7e6fa0',
+  //   name: 'Dr. Neha Janu',
+  //   designation: 'Ex-Faculty Advisor',
+  //   socialLinks: [
+  //     {
+  //       name: 'linkedin',
+  //       link: 'https://www.linkedin.com/in/dr-neha-janu-99341323/',
+  //     },
+  //   ],
+  // },
   {
     id: 8,
     avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member8.png?alt=media&token=93457a2b-d853-484b-9de4-087d57721c84',
