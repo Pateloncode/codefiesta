@@ -1,5 +1,5 @@
-import React from 'react';
-import { Box, Container, Flex, Text, Heading, Image } from 'theme-ui';
+//import React from 'react';
+//import { Box, Container, Flex, Text, Heading, Image } from 'theme-ui';
 
 // Commented-out component code
 // const CallToAction = () => {
@@ -43,3 +43,35 @@ import { Box, Container, Flex, Text, Heading, Image } from 'theme-ui';
 //   button: { ... },
 //   images: { ... },
 // };
+
+
+import React from 'react';
+import { Box, Container, Flex, Text, Heading, Image } from 'theme-ui';
+
+// CallToAction component kept in the code but rendered as null
+const CallToAction = () => {
+  return null; // This ensures the component renders nothing
+};
+
+// Export the CallToAction component
+export default CallToAction;
+
+// Placeholder styles object to avoid undefined errors
+const styles = {
+  callToAction: {
+    // Placeholder for styles
+  },
+  flex: {
+    // Placeholder for styles
+  },
+  content: {
+    // Placeholder for styles
+  },
+  button: {
+    // Placeholder for styles
+  },
+  images: {
+    // Placeholder for styles
+  },
+};
+
