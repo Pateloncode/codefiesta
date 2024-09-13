@@ -233,26 +233,6 @@ const data = [
   },
   {
     id: 15,
-    avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member5.png?alt=media&token=751b7381-4dec-4a34-9a01-78573b8661ae',
-    name: 'Vansh Rastogi',
-    designation: 'Ex-Core Team',
-    socialLinks: [
-      {
-        name: 'linkedin',
-        link: 'https://www.linkedin.com/in/vansh-rastogi',
-      },
-      {
-        name:'github',
-        link:'https://github.com/vanbitcase',
-      },
-      {
-        name :'instagram',
-        link:'https://www.instagram.com/vanshrastogi212',
-      }
-    ],
-  },
-  {
-    id: 16,
     avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member8.png?alt=media&token=93457a2b-d853-484b-9de4-087d57721c84',
        name: 'Vinit Kumar Shah',
     designation: 'Ex-Core Team',
@@ -269,6 +249,26 @@ const data = [
         name: 'instagram',
         link: 'https://www.instagram.com/vinit_k_shah/',
       },
+    ],
+  },
+   {
+    id: 16,
+    avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member5.png?alt=media&token=751b7381-4dec-4a34-9a01-78573b8661ae',
+    name: 'Vansh Rastogi',
+    designation: 'Ex-Core Team',
+    socialLinks: [
+      {
+        name: 'linkedin',
+        link: 'https://www.linkedin.com/in/vansh-rastogi',
+      },
+      {
+        name:'github',
+        link:'https://github.com/vanbitcase',
+      },
+      {
+        name :'instagram',
+        link:'https://www.instagram.com/vanshrastogi212',
+      }
     ],
   },
   {
