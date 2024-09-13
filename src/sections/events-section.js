@@ -3,7 +3,7 @@ import { Container, Box, Heading, Text } from 'theme-ui'
 import PostCard from 'components/post-card.js';
 import ButtonGroup from 'components/button-group';
 import Carousel from 'react-multi-carousel';
-import PostThumb1 from 'assets/images/blog/dalle2.png';
+import PostThumb1 from 'assets/images/blog/bytechaseevent.png';
 import PostThumb2 from 'assets/images/blog/bun.png';
 import PostThumb4 from 'assets/images/blog/IoTws.png';
 import PostThumb5 from 'assets/images/blog/maamfarewell.png';
@@ -30,12 +30,12 @@ const data = [
   },
   {
     id: 2,
-    imgSrc: PostThumb5,
-    altText: 'Dr. Neha janu',
+    imgSrc:PostThumb1,
+    altText: 'Chirag Gurnani',
     // postLink: 'https://photos.app.goo.gl/8gmYGf1SCsMLLRU46',
-    title: 'Dr. Neha\'s Farewell',
-    authorName: 'Dr. Neha Janu',
-    date: '8-10-22',
+    title: 'BYTE-CHASE Event',
+    authorName: 'Chirag Gurnani',
+    date: '13-03-2024',
   },
   {
     id: 3,
@@ -46,16 +46,24 @@ const data = [
     authorName: 'Akshat Surana',
     date: '7-10-22 & 8-10-22',
   },
-  
   {
     id: 5,
-    imgSrc: PostThumb1,
-    altText: 'Blog 1: DALL·E 2',
-    postLink: 'https://dsc-skit.hashnode.dev/ai-creates-stunning-images-from-text-dall-e-2',
-    title: 'Blog 1: DALL·E 2',
-    authorName: 'Chirag Sharma',
-    date: '13-08-22',
+    imgSrc: PostThumb5,
+    altText: 'Dr. Neha janu',
+    // postLink: 'https://photos.app.goo.gl/8gmYGf1SCsMLLRU46',
+    title: 'Dr. Neha\'s Farewell',
+    authorName: 'Dr. Neha Janu',
+    date: '8-10-22',
   },
+  // {
+  //   id: 5,
+  //   imgSrc: PostThumb1,
+  //   altText: 'Blog 1: DALL·E 2',
+  //   postLink: 'https://dsc-skit.hashnode.dev/ai-creates-stunning-images-from-text-dall-e-2',
+  //   title: 'Blog 1: DALL·E 2',
+  //   authorName: 'Chirag Sharma',
+  //   date: '13-08-22',
+  // },
   {
     id: 6,
     imgSrc: PostThumb2,
