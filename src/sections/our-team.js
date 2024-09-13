@@ -74,7 +74,7 @@ const data = [
     id: 4,
     avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/9.png?alt=media&token=d3ce29e3-9006-4929-955a-ecfc44491209',
     name: 'Harshit Sharma',
-    designation: 'Core Team',
+    designation: 'Co-Lead',
     socialLinks: [
       {
         name: 'linkedin',
