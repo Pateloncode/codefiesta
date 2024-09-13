@@ -3,7 +3,7 @@ import * as React from "react"
 const SvgComponent = (props) => (
 	
 
-<svg version="1.1" id="Layer_1" x="0px" y="0px" width={185.92} height={70} viewBox="0 0 100 100" enable-background="new 0 0 100 100" preserveAspectRatio="xMidYMid meet">
+<svg version="1.1" id="Layer_1" x="0px" y="0px" width={60} height={70} viewBox="0 0 100 100" enable-background="new 0 0 100 100" preserveAspectRatio="xMidYMid meet">
         
 	
         <path fill="#FEFDFD" opacity="1.000000" stroke="none" 

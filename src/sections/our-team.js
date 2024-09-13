@@ -92,7 +92,7 @@ const data = [
     id: 5,
     avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member5.png?alt=media&token=751b7381-4dec-4a34-9a01-78573b8661ae',
     name: 'Vansh Rastogi',
-    designation: 'Faculty Advisor',
+    designation: 'Core Team',
     socialLinks: [
       {
         name: 'linkedin',
