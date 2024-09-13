@@ -51,6 +51,7 @@ const data = [
   },
   {
     id: 3,
+<<<<<<< HEAD
     avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/8.png?alt=media&token=416d3eec-3650-4888-a000-fea7cab1e907',
     name: 'Tushar Tak',
     designation: 'CodeFiesta Lead', 
@@ -194,6 +195,8 @@ const data = [
   },
   {
     id: 13,
+=======
+>>>>>>> 9535727bd4a9ca576e2e4dcfac7029dd0d4ffd93
     avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member3.png?alt=media&token=cf91825e-0ac1-471e-b559-71d3cf7bdb73',
     name: 'Akshat Surana',
     designation: 'Ex-Mentor', 
@@ -214,7 +217,11 @@ const data = [
     ],
   },
   {
+<<<<<<< HEAD
     id: 14,
+=======
+    id: 4,
+>>>>>>> 9535727bd4a9ca576e2e4dcfac7029dd0d4ffd93
     avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member4.png?alt=media&token=0d11f3cc-9adf-4605-a6c7-3aebb298c919',
     name: 'Abhijeet Giri',
     designation: 'Ex-Core Team',
@@ -232,7 +239,11 @@ const data = [
     ],
   },
   {
+<<<<<<< HEAD
     id: 15,
+=======
+    id: 5,
+>>>>>>> 9535727bd4a9ca576e2e4dcfac7029dd0d4ffd93
     avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member5.png?alt=media&token=751b7381-4dec-4a34-9a01-78573b8661ae',
     name: 'Vansh Rastogi',
     designation: 'Ex-Core Team',
@@ -252,7 +263,35 @@ const data = [
     ],
   },
   {
+<<<<<<< HEAD
     id: 16,
+=======
+    id: 6,
+    avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member6.png?alt=media&token=ffde0eea-c132-46c0-9855-c69b81944293',
+    name: 'Manan Patel',
+    designation: 'Development Team',
+    socialLinks: [
+      {
+        name: 'linkedin',
+        link: 'https://www.linkedin.com/in/manan-patel-193747248/',
+      },
+    ],
+  },
+  // {
+  //   id: 7,
+  //   avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member7.png?alt=media&token=d40846e2-c707-4872-90be-c6f5fa7e6fa0',
+  //   name: 'Dr. Neha Janu',
+  //   designation: 'Ex-Faculty Advisor',
+  //   socialLinks: [
+  //     {
+  //       name: 'linkedin',
+  //       link: 'https://www.linkedin.com/in/dr-neha-janu-99341323/',
+  //     },
+  //   ],
+  // },
+  {
+    id: 8,
+>>>>>>> 9535727bd4a9ca576e2e4dcfac7029dd0d4ffd93
     avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member8.png?alt=media&token=93457a2b-d853-484b-9de4-087d57721c84',
        name: 'Vinit Kumar Shah',
     designation: 'Ex-Core Team',
@@ -272,7 +311,11 @@ const data = [
     ],
   },
   {
+<<<<<<< HEAD
     id: 17,
+=======
+    id: 9,
+>>>>>>> 9535727bd4a9ca576e2e4dcfac7029dd0d4ffd93
     avatar: 'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member9.png?alt=media&token=4522670b-d584-4b6c-8826-c2eca7d99423',
     
     name: 'Hardik Sharma',
@@ -293,7 +336,11 @@ const data = [
     ],
   },
   {
+<<<<<<< HEAD
     id: 18,
+=======
+    id: 10,
+>>>>>>> 9535727bd4a9ca576e2e4dcfac7029dd0d4ffd93
     avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/member10.png?alt=media&token=95d04405-90ff-4a20-b1fa-e372f376b248',
     
     name: 'Chirag Kumar Sharma',
@@ -440,9 +487,14 @@ const OurTeam = () => {
           watchSlidesVisibility={true}
           slidesPerView={5}
           breakpoints={breakpoints}
+<<<<<<< HEAD
         >  
         {/* stuff */}
           {data.slice(0, 11).map((item) => (
+=======
+        >
+          {data.slice(0, 6).map((item) => (
+>>>>>>> 9535727bd4a9ca576e2e4dcfac7029dd0d4ffd93
             <SwiperSlide key={item.id}>
               <TeamMember member={item} />
             </SwiperSlide>
@@ -487,8 +539,12 @@ const OurTeam = () => {
           slidesPerView={5}
           breakpoints={breakpoints}
         >
+<<<<<<< HEAD
           {/* stuff */}
           {data.slice(11, 18).map((item) => (
+=======
+          {data.slice(6, 12).map((item) => (
+>>>>>>> 9535727bd4a9ca576e2e4dcfac7029dd0d4ffd93
             <SwiperSlide key={item.id}>
               <TeamMember member={item} />
             </SwiperSlide>

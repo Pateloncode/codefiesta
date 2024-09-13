@@ -1,5 +1,10 @@
 import React from 'react';
 import { Box, Container, Flex, Text, Heading, Image } from 'theme-ui';
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 9535727bd4a9ca576e2e4dcfac7029dd0d4ffd93
 
 // Commented-out component code
 // const CallToAction = () => {
@@ -43,7 +48,57 @@ import { Box, Container, Flex, Text, Heading, Image } from 'theme-ui';
 
 // Create a placeholder component that does nothing
 const CallToAction = () => {
+<<<<<<< HEAD
   return null; // This ensures the component renders nothing without causing an error
+=======
+  return (
+    <Box as="section" sx={styles.callToAction}>
+      <Container>
+        <Flex sx={styles.flex}>
+          <Box sx={styles.content}>
+            <Text as="span">BYTE-CHASE: The Treasure Adventure! </Text>
+            <Heading as="h3">
+            Join us for
+            </Heading>
+            
+
+            <Heading as="h4">
+            ByteChase – not your average treasure hunt, but an exhilarating Treasure Adventure!!
+            </Heading>
+            <Text as="p">
+              Your mission?
+              Scan, Decode, strategize across campus and claim the ByteChase Victory.
+            </Text>
+            
+
+            <a href="https://erp.skit.ac.in/register/r/Pravah24ByteChs" style={styles.button}>
+  Register Now
+</a>
+<a href="https://pdfhost.io/v/HDDluFuNQ_ByteChase_The_Treasure_Adventure" style={styles.button}>
+  Download
+</a>
+
+
+            
+
+{/* 
+            {<Link path="https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/ByteChase%20The%20Treasure%20Adventure.pdf?alt=media&token=7abe3344-e8ac-4f84-8382-9d41afc95092" sx={styles.button}>
+            <a href="https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/ByteChase%20The%20Treasure%20Adventure.pdf?alt=media&token=7abe3344-e8ac-4f84-8382-9d41afc95092" >
+              DOWNLOAD
+              </a>
+
+           
+            </Link> */}
+           
+          </Box>
+          <Box sx={styles.images}>
+            <Image src={'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/call-image.png?alt=media&token=dd5f5dbc-1d64-4fe7-96a9-c609a025f7f9'} alt="call image" />
+          </Box>
+        </Flex>
+      </Container>
+    </Box>
+  );
+>>>>>>> 9535727bd4a9ca576e2e4dcfac7029dd0d4ffd93
 };
 
 export default CallToAction;
