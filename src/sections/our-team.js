@@ -124,7 +124,7 @@ const data = [
     id: 7,
     avatar:'https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/12.png?alt=media&token=e53f1aab-09cd-43a0-a49f-84a1a806fdc1',
     name: 'Manan Patel',
-    designation: 'Technical Lead',
+    designation: 'Technical Head',
     socialLinks: [
       {
         name: 'linkedin',
