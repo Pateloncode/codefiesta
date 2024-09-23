@@ -58,7 +58,7 @@ const styles = {
     h3: {
       color: '#0F2137',
       fontWeight: 800,
-      fontSize: ['18px', null, null, null, '30px', '36px', '44px'], // Responsive font size
+      fontSize: ['20px', null, null, null, '30px', '36px', '44px'], // Responsive font size
       maxWidth: ['100%', null, null, null, null, '90%', '100%'], // Controls width at different breakpoints
       lineHeight: 1.36,
       letterSpacing: '-1.5px',
