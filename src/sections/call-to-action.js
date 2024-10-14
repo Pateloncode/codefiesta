@@ -4,31 +4,35 @@ import { Box, Container, Flex, Text, Heading, Image, Button } from 'theme-ui';
 
 // import callImage from 'assets/images/call-image.png';
 
-const CallToAction = () => {
-  return (
-    <Box as="section" sx={styles.callToAction}>
-      <Container>
-        <Flex sx={styles.flex}>
-          <Box sx={styles.content}>
-            <Text as="span">🚨Hurry Up! Very Few Seats Left | Register Fast!🚨</Text>
-            <Heading as="h3">
-            🚀 Join  Coding Ninjas' most awaited workshop – "Freshman Induction: The First Step Towards Success"
-            </Heading>
-            <Text as="p">
-            In collaboration with <span className='font-bold'>CodeFiesta, SKIT Jaipur!</span>
-            Don't miss out on this incredible opportunity to kickstart your engineering journey with guidance from industry experts! 📚
-            </Text>
-            <Button sx={styles.button} as="a" href="https://tinyurl.com/fdswjxen">
-              Register Now
-            </Button>
-          </Box>
-          <Box sx={styles.images}>
-            <Image src={"https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/WhatsApp%20Image%202024-09-22%20at%2012.37.32.jpeg?alt=media&token=33a01b66-31d5-4e57-a1b1-2eaa2d3c7220"} alt="call image" />
-          </Box>
-        </Flex>
-      </Container>
-    </Box>
-  );
+// const CallToAction = () => {
+//   return (
+//     <Box as="section" sx={styles.callToAction}>
+//       <Container>
+//         <Flex sx={styles.flex}>
+//           <Box sx={styles.content}>
+//             <Text as="span">🚨Hurry Up! Very Few Seats Left | Register Fast!🚨</Text>
+//             <Heading as="h3">
+//             🚀 Join  Coding Ninjas' most awaited workshop – "Freshman Induction: The First Step Towards Success"
+//             </Heading>
+//             <Text as="p">
+//             In collaboration with <span className='font-bold'>CodeFiesta, SKIT Jaipur!</span>
+//             Don't miss out on this incredible opportunity to kickstart your engineering journey with guidance from industry experts! 📚
+//             </Text>
+//             <Button sx={styles.button} as="a" href="https://tinyurl.com/fdswjxen">
+//               Register Now
+//             </Button>
+//           </Box>
+//           <Box sx={styles.images}>
+//             <Image src={"https://firebasestorage.googleapis.com/v0/b/something-424ae.appspot.com/o/WhatsApp%20Image%202024-09-22%20at%2012.37.32.jpeg?alt=media&token=33a01b66-31d5-4e57-a1b1-2eaa2d3c7220"} alt="call image" />
+//           </Box>
+//         </Flex>
+//       </Container>
+//     </Box>
+//   );
+// };
+
+const CallToAction =() =>{
+  return null;
 };
 
 export default CallToAction;
@@ -58,7 +62,7 @@ const styles = {
     h3: {
       color: '#0F2137',
       fontWeight: 800,
-      fontSize: ['20px', null, null, null, '30px', '36px', '44px'], // Responsive font size
+      fontSize: ['18px', null, null, null, '30px', '36px', '44px'], // Responsive font size
       maxWidth: ['100%', null, null, null, null, '90%', '100%'], // Controls width at different breakpoints
       lineHeight: 1.36,
       letterSpacing: '-1.5px',
